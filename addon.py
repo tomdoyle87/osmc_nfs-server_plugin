@@ -7,8 +7,7 @@
 import xbmc
 import xbmcgui
 import xbmcaddon
-import Kodi-nfs-server-setup
-import Kodi-uninstall-nfs-server
+from subprocess import Popen
 
 # plugin constants
 __plugin__ = "configure NFS Server on OSMC "
