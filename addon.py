@@ -31,3 +31,10 @@ def select(heading, options, default=lambda: select_main):
 
 dialog = xbmcgui.Dialog()
 addon = xbmcaddon.Addon(id='plugin.program.OSMC_NFS_Sever')
+
+def select_main():
+    menu = [
+            {'label': 'Install NFS Server', 'func': Popen('python Kodi-nfs-server-setup.py'), 'complete': select_main},
+            {'label': 'Unstall NFS Server', 'func': Popen('Kodi-uninstall-nfs-server.py'), 'complete': select_main}
+    ]
+    select('NFS Server', menu, default=select_noop)
