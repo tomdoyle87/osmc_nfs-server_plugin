@@ -5,7 +5,7 @@ import sys
 import os
 import shutil
 
-dry_run = False
+dry_run = True
 
 def uninstall_server(): 
     '''Function to uninstall nfs server.'''
