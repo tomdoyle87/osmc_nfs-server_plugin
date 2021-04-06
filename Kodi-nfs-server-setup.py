@@ -8,7 +8,7 @@ try:
     import ipaddress
     print("module 'time' is installed")
 except ModuleNotFoundError:
-    os.system('pip install ipaddress)
+    os.system('pip install ipaddress')
 dry_run = True
 
 def check(Ip):
