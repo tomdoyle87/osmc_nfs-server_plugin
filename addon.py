@@ -7,8 +7,10 @@
 import xbmc
 import xbmcgui
 import xbmcaddon
+import os
 
-
+os.system('sudo apt-get update' and 'sudo apt-get install -y python-pip && pip install ipaddress')
+xbmcgui.Dialog().ok('kodi', 'Installing dependances')
 
 # plugin constants
 __plugin__ = "configure NFS Server on OSMC "
