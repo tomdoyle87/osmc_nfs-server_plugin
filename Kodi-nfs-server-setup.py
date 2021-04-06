@@ -4,7 +4,11 @@ import xbmcgui
 import sys
 import os
 import shutil
-import ipaddress
+try:
+    import ipaddress
+    print("module 'ipaddress' is installed")
+except ModuleNotFoundError:
+    os.system('pip install ipaddress)
 
 dry_run = True
 
