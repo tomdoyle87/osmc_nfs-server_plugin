@@ -75,7 +75,7 @@ if dry_run:
     xbmcgui.Dialog().ok('kodi',line1)
 else:
     xbmcgui.Dialog().ok('kodi',line1)
-    nfsdefaults = ",sync,crossmnt,no_root_squash"
+    nfsdefaults = ",sync,crossmnt,no_root_squash,no_subtree_check"
     share = "/media/" + " " + Ip + "\(" + st + nfsdefaults + "\)"
     os.environ['share'] = share
     os.system('/bin/bash -c "echo $share | sudo tee -a /etc/exports"')
@@ -102,7 +102,7 @@ while True:
         else:
             line1 = "Setting up additonal shares as requested"
             xbmcgui.Dialog().ok('kodi',line1)
-            nfsdefaults = ",sync,crossmnt,no_root_squash"
+            nfsdefaults = ",sync,crossmnt,no_root_squash,no_subtree_check"
             share2 = share + " " + Ip + "\(" + st + nfsdefaults + "\)"
             os.environ['share'] = share2
             os.system('/bin/bash -c "echo $share | sudo tee -a /etc/exports"')
