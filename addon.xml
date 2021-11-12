@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.OSMC_NFS_Sever" name="Configure NFS server on OSMC" version="0.0.1" provider-name="tomdoyle97">
+<addon id="plugin.program.OSMC_NFS_Sever" name="Configure NFS server on OSMC" version="0.0.2" provider-name="tomdoyle97">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -14,5 +14,9 @@
         <description lang="en">Plugin that sets up NFS server on OSMC</description>
         <website>https://github.com/tomdoyle87/osmc_nfs-server_plugin</website>
         <email>tom@email-doyle.co.uk</email>
+		<news>Trying to make addon from py-script</news>
+       	<assets>
+			<icon>resources/media/icon.png</icon>
+        </assets>
     </extension>
 </addon>

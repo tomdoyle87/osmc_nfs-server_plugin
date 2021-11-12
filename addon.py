@@ -21,6 +21,6 @@ __version__ = "0.0.1"
 
 dialog = xbmcgui.Dialog()
 if dialog.yesno('Kodi', 'Please select an option', yeslabel='Install NFS Server', nolabel='Uninstall NFS Server'):
-    xbmc.executebuiltin('RunScript(special://home/addons/plugin.program.OSMC_NFS_Sever/Kodi-nfs-server-setup.py)')
+    xbmc.executebuiltin('RunScript(special://home/addons/plugin.program.OSMC_NFS_Sever/resources/lib/Kodi-nfs-server-setup.py)')
 else:
-    xbmc.executebuiltin('RunScript(special://home/addons/plugin.program.OSMC_NFS_Sever/Kodi-uninstall-nfs-server.py)')
+    xbmc.executebuiltin('RunScript(special://home/addons/plugin.program.OSMC_NFS_Sever/resources/lib/Kodi-uninstall-nfs-server.py)')
