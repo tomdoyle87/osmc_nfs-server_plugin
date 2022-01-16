@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.program.OSMC_NFS_Sever" name="Configure NFS server on OSMC" version="0.0.2" provider-name="tomdoyle97">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-    </requires>
-    <extension point="xbmc.python.script" library="addon.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <language/>
-        <platform>linux</platform>
-        <disclaimer>For OSMC</disclaimer>
-        <summary lang="en">Configures NFS Server on OSMC.</summary>
-        <description lang="en">Plugin that sets up NFS server on OSMC</description>
-        <website>https://github.com/tomdoyle87/osmc_nfs-server_plugin</website>
-        <email>tom@email-doyle.co.uk</email>
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_gb">Configures NFS Server on OSMC.</summary>
+		<description lang="en_gb">Plugin that sets up NFS server on OSMC</description>
+		<disclaimer lang="en_gb">For OSMC</disclaimer>
+		<language>en</language> <!-- the language of the videos or other content the plugin provides, may be omitted in case the addon does not provide any content -->
+		<platform>linux</platform>
+		<license>GPL3</license>
+		<forum>https://discourse.osmc.tv/</forum> <!-- may be omitted  -->
+		<website>https://osmc.tv/</website> <!-- the url of the website that contains the videos (or the official website of your plugin). May be omitted.  -->
+		<email>tom@email-doyle.co.uk</email> <!-- may be omitted  -->
+		<source>https://github.com/tomdoyle87/osmc_nfs-server_plugin</source>
 		<news>Trying to make addon from py-script</news>
-       	<assets>
+		<assets>
 			<icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
+			<fanart><</fanart>
+			<banner><</banner> <!-- optional -->
+			<clearlogo><</clearlogo> <!-- optional  -->
+			<screenshot><</screenshot> <!-- optional, max 10  -->
+		</assets>
+	</extension>
 </addon>
