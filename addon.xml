@@ -12,7 +12,7 @@
 		<disclaimer lang="en_gb">For OSMC</disclaimer>
 		<language>en</language> <!-- the language of the videos or other content the plugin provides, may be omitted in case the addon does not provide any content -->
 		<platform>linux</platform>
-		<license>GPL3</license>
+		<license>GPL-2.0-or-later</license>
 		<forum>https://discourse.osmc.tv/</forum> <!-- may be omitted  -->
 		<website>https://osmc.tv/</website> <!-- the url of the website that contains the videos (or the official website of your plugin). May be omitted.  -->
 		<email>tom@email-doyle.co.uk</email> <!-- may be omitted  -->
