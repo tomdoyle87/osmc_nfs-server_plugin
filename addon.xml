@@ -20,10 +20,10 @@
 		<news>Trying to make addon from py-script</news>
 		<assets>
 			<icon>resources/media/icon.png</icon>
-			<fanart><</fanart>
-			<banner><</banner> <!-- optional -->
-			<clearlogo><</clearlogo> <!-- optional  -->
-			<screenshot><</screenshot> <!-- optional, max 10  -->
+			<fanart></fanart>
+			<banner></banner> <!-- optional -->
+			<clearlogo></clearlogo> <!-- optional  -->
+			<screenshot></screenshot> <!-- optional, max 10  -->
 		</assets>
 	</extension>
 </addon>
